@@ -1,5 +1,5 @@
-# house
-## 不同版本python
+# 生活小贴士
+## 1、不同版本python
 ### .exe文件命名
 通过python文件的不同命名，实现不同版本python的管理（python.exe以及python3.exe），一般下载后默认为python.exe，在原本文件夹中生成副本重新命名为pythonx.exe即可。
 ```
@@ -24,7 +24,7 @@ conda activate transformers
 pip install xxx
 ```
 
-## conda中的不同环境
+## 2、conda中的不同环境
 
 ```
 # 检查conda版本
@@ -39,5 +39,24 @@ conda create -n env-name [list of package]
 # 删除环境
 conda remove -n [name] --all
 ```
+
+## 3、github将master分支合并到main分支
+```
+# 切换本地分支为master
+git checkout master
+# 更新本地分支master代码为远程最新代码
+git pull  
+# 切换到自己的分支
+git checkout [自己的分支名]  
+# 合并master到自己的分支
+git merge master  
+# 提送自己本地分支到自己的远程分支
+git push
+# 若需要删除master分支
+git push -d origin master # 本地合并时可能会遇到refusing to merge unrelated histories的错误，只需在后面加上--allow-unrelated-histories
+```
+
+
+
 
 
