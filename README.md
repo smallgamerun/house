@@ -56,7 +56,9 @@ git push
 git push -d origin master # 本地合并时可能会遇到refusing to merge unrelated histories的错误，只需在后面加上--allow-unrelated-histories
 ```
 
-
+## 4、一个有用的python库--collections【提供了高性能的数据类型】[详细介绍](https://zhuanlan.zhihu.com/p/343747724)
+- Counter（计数器）
+- 
 
 
 
