@@ -58,7 +58,9 @@ git push -d origin master # 本地合并时可能会遇到refusing to merge unre
 
 ## 4、一个有用的python库--collections【提供了高性能的数据类型】[详细介绍](https://zhuanlan.zhihu.com/p/343747724)
 - Counter（计数器）
-- 
 
+## 5、python的装饰器们
+- @property：来创建只读属性，将方法转换为相同名称的只读属性，即调用的时候不用加括号()了
+- @functools.lru_cache(maxsize = 300) / @functools.cache【import functools】
 
 
