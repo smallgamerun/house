@@ -32,7 +32,7 @@ conda --version
 # 查看所有环境
 conda env list
 # 创建新的环境
-conda create -n env-name [list of package]
+conda create -n env-name [list of package] [--clone xxx]
 （1）-n env-name是设置新建环境的名字，list of package是可选项，选择要为该环境安装的包。
 （2）如果我们没有指定安装python的版本，conda会安装我们最初安装conda时所装的那个版本的python。
 （3）若创建特定python版本的包环境，需键入conda create -n env-name python=3.6
